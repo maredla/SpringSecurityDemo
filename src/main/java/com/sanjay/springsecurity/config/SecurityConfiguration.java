@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  * @author Sanjay
  *	
  * @EnableWebSecurity - marker annotation to make add manual security config
- * @Configuraiton - to switch of default security login
+ * @Configuraiton - we use both the annotations to switch-of default security login
  * We can customize the security by extending class WebSecurityConfigurerAdapter
  */
 @EnableWebSecurity
